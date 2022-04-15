@@ -134,6 +134,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.left .footer {
+  margin-right: 2rem;
+}
+
 @media screen and (max-width: 860px) {
   .left .footer {
     display: flex;
@@ -142,11 +146,8 @@ body {
     justify-content: space-between;
     font-family: "Inter", sans-serif;
     font-size: 20px;
+    margin-right: 0;
   }
-}
-
-.left .footer {
-  margin-right: 2rem;
 }
 
 .left .footer .item .value {
